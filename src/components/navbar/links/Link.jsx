@@ -3,6 +3,7 @@ import Link from "next/link"
 import styles from './links.module.css'
 import NavLink from './navlink/NavLink'
 import { useState } from "react"
+import { handleGithubLogout } from "@/lib/actions"
 const links = [
     {
         title: "Homepage",
@@ -22,11 +23,11 @@ const links = [
     },
 ]
 
-const Links = () => {
+const Links = ({session}) => {
     const [open, setOpen] = useState(false)
 
-    var session = true
-    var isAdmin = true
+
+   
 
     return (
         <div className={styles.container}>
@@ -36,10 +37,13 @@ const Links = () => {
                     <NavLink item={link} key={link.title} />
                 ))}
                 {
-                    session ? (
+                    session ?.user? (
                         <>
-                            {isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }} />}
-                            <button className={styles.logout}>Logout</button>
+                            {session.user?.isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }} />}
+                            <form action={handleGithubLogout}>
+                                <button className={styles.logout}>Logout</button>
+
+                            </form>
 
                         </>
                     ) : (
@@ -51,7 +55,7 @@ const Links = () => {
 
             </div>
             <button className={styles.menuButton} onClick={() => { setOpen((prev) => !prev) }}> Menu</button>
-            {open && 
+            {open &&
                 <div className={styles.mobileLinks}>
                     {links.map((link) => (
                         <NavLink item={link} key={link.title} />

@@ -2,101 +2,293 @@
   "node": {
     "013d6fa07049445a8c851b390f4a2eb67ed20ea4": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/admin/page": "rsc",
         "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
       }
     },
     "06858b2ba10d9b6207f98a346e869b0a1fc7a84e": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/admin/page": "rsc",
         "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "0f252afca326b3897dfd56c2b3d0ab2b3de1b6aa": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "1b489c68e995706ce19fbe123d9811842ad0d92f": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
       }
     },
     "2c6f99703b7a83346eb0a33b25e259a75cafdadc": {
       "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
+        "app/admin/page": "rsc",
         "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
-      }
-    },
-    "7c113d9b9ff34fe702089d2faa15b10e1b4f7ebd": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
-      }
-    },
-    "86f0e30fce0766998184fa24606bdc14e4f2fde6": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
-      }
-    },
-    "950993ef314b44bf913d35f196a20074f73520e2": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
-      }
-    },
-    "97b3499a9f4914ee7baa96945a1ee04e038df09f": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
-      }
-    },
-    "e62e21f094298f716d40040792b41208d366b95c": {
-      "workers": {
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=true!",
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/page": "action-browser",
-        "app/(auth)/login/page": "rsc"
-      }
-    },
-    "c49646b4b901354a26bc2381e89dbef97075333b": {
-      "workers": {
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/(auth)/login/page": "rsc"
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
       }
     },
     "569f24763aa5a03a855c828069d58e48e1dad634": {
       "workers": {
-        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogout%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22register%22%2C%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/(auth)/login/page": "rsc"
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "7c113d9b9ff34fe702089d2faa15b10e1b4f7ebd": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "950993ef314b44bf913d35f196a20074f73520e2": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "97b3499a9f4914ee7baa96945a1ee04e038df09f": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "ac4f6fb3872be492f055b70107c000be39d26b22": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "c49646b4b901354a26bc2381e89dbef97075333b": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "d61f46be8fff60d753efaf6b144dd909bd57579c": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "e1751df18b06f6c95e294e22a872e5b78c84c691": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "e62e21f094298f716d40040792b41208d366b95c": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "f67647657b17aac03ecedf3634810ab4257ced6d": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
+      }
+    },
+    "fd6b4b47b76b08b711337e0ee5f380bd1e884b2c": {
+      "workers": {
+        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/about/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CNext%20JS%5C%5Cmy-app%5C%5Csrc%5C%5Clib%5C%5Cactions.js%22%2C%5B%22addPost%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_5%22%2C%22login%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22deletePost%22%2C%22handleGithubLogin%22%2C%22%24%24ACTION_0%22%2C%22addUser%22%2C%22register%22%2C%22%24%24ACTION_6%22%2C%22%24%24ACTION_7%22%2C%22%24%24ACTION_1%22%2C%22handleLogout%22%2C%22deleteUser%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/admin/page": "rsc",
+        "app/page": "action-browser",
+        "app/about/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/(auth)/register/page": "action-browser",
+        "app/blog/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "Qzv3B56x3wiUL6Ufzl1IgTPIPG8vcQKMxxFSvQvW56o="
+  "encryptionKey": "S6rNJPPIzbOySZbOGKYbVMdfltBGjeFV13Q8i1MCTiY="
 }

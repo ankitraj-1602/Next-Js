@@ -3,7 +3,7 @@ import Link from "next/link"
 import styles from './links.module.css'
 import NavLink from './navlink/NavLink'
 import { useState } from "react"
-import { handleGithubLogout } from "@/lib/actions"
+import {  handleLogout } from "@/lib/actions"
 const links = [
     {
         title: "Homepage",
@@ -40,7 +40,7 @@ const Links = ({session}) => {
                     session ?.user? (
                         <>
                             {session.user?.isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }} />}
-                            <form action={handleGithubLogout}>
+                            <form action={handleLogout}>
                                 <button className={styles.logout}>Logout</button>
 
                             </form>
